@@ -9,10 +9,10 @@ class Resultado extends Component {
 
         return (
 
-                <div class="col-md-4 col-sm-12 col-12">
+                <div className="col-md-4 col-sm-12 col-12">
 
-                    <div class="card-cachorro mr-3 mb-3">
-                        <div class="cabecalho-card">
+                    <div className="card-cachorro mr-3 mb-3">
+                        <div className="cabecalho-card">
                             <span>
                                 <img src={IconDog} alt="logo cachorro" />
                             </span>
@@ -20,7 +20,7 @@ class Resultado extends Component {
                         </div>
 
 
-                        <div class="corpo-card">
+                        <div className="corpo-card">
                             <ul>
                                 <li> <span>Raça: </span>{cachorro.raca}</li>
                                 <li><span>Genêro: </span>{cachorro.genero}</li>

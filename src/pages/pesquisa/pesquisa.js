@@ -68,30 +68,30 @@ export default class Pesquisa extends Component {
         let cachorros = this.state.cachorros;
 
         return ([
-            <section class="container-fluid pesquisa-bg">
+            <section className="container-fluid pesquisa-bg">
 
-                <div class="container">
-                    <div class="pesquisa p-5">
+                <div className="container">
+                    <div className="pesquisa p-5">
                         <form onSubmit={this.enviaForm}>
-                            <div class="row">
+                            <div className="row">
 
-                                <div class="form-group  col-12 col-md-4">
-                                    <input type="text" ref={(input) => { this.nome = input }} class="form-control" placeholder="nome do cachorro" />
+                                <div className="form-group  col-12 col-md-4">
+                                    <input type="text" ref={(input) => { this.nome = input }} className="form-control" placeholder="nome do cachorro" />
                                 </div>
 
-                                <div class="form-group col-12 col-md-4">
-                                    <input type="text" ref={(input) => { this.raca = input }} class="form-control" placeholder="raça do cachorro" />
+                                <div className="form-group col-12 col-md-4">
+                                    <input type="text" ref={(input) => { this.raca = input }} className="form-control" placeholder="raça do cachorro" />
                                 </div>
 
-                                <div class="form-group col-12 col-md-4">
-                                    <input type="text" ref={(input) => { this.dono = input }} class="form-control" placeholder="dono do cachorro" />
+                                <div className="form-group col-12 col-md-4">
+                                    <input type="text" ref={(input) => { this.dono = input }} className="form-control" placeholder="dono do cachorro" />
                                 </div>
 
                             </div>
 
-                            <div class="row">
-                                <div class="col-12 text-center pt-3">
-                                    <button type="submit" class="btn-busca">Buscar</button>
+                            <div className="row">
+                                <div className="col-12 text-center pt-3">
+                                    <button type="submit" className="btn-busca">Buscar</button>
                                 </div>
                             </div>
 
@@ -107,13 +107,13 @@ export default class Pesquisa extends Component {
                 <div className="row">
                     <div className="col-md-12 col-12">
 
-                        <Link to="/" class="btn-inicio">Voltar ao Início</Link>
+                        <Link to="/" className="btn-inicio">Voltar ao Início</Link>
                     </div>
                 </div>
 
             </section>,
 
-            <section class="container resultado">
+            <section className="container resultado">
                 <div className="row">
 
                     {
