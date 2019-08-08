@@ -3,7 +3,7 @@ Sistema de busca de cachorros feita com React,
 
 Este projeto foi inicializado com o [Create React App] (https://github.com/facebook/create-react-app).
 ## Requisitos essenciais 
-O computador que rodar a aplicação deve está conectado a internet, pois os sistema faz uso do framework Boostrap por CDN, e seu backend está hospedado no https://cloud.mongodb.com.
+O computador que rodar a aplicação deve está conectado a internet, pois os sistema faz uso do framework Bootsrap por CDN, e seu backend está hospedado no https://cloud.mongodb.com.
 
 ## Oque você precisa ter instalado na máquina
 
