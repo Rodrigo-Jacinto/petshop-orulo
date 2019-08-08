@@ -1,7 +1,9 @@
 # petshop-orulo
-Sistema de busca de cachorros feita com React
-Este projeto foi inicializado com o [Create React App] (https://github.com/facebook/create-react-app).
+Sistema de busca de cachorros feita com React,
 
+Este projeto foi inicializado com o [Create React App] (https://github.com/facebook/create-react-app).
+## Requisitos essenciais 
+O computador que rodar a aplicação deve está conectado a internet, pois os sistema faz uso do framework Boostrap por CDN, e seu backend está hospedado no https://cloud.mongodb.com.
 
 ## Oque você precisa ter instalado na máquina
 
@@ -21,4 +23,6 @@ Abra [http: // localhost: 3000] (http: // localhost: 3000) para visualizá-lo no
 
 A página será recarregada se você fizer edições. <br>
 Você também verá quaisquer erros de lint no console.
+
+
 
