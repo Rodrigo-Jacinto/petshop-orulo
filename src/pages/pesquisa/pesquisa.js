@@ -34,6 +34,7 @@ export default class Pesquisa extends Component {
             //verifica se foi retornado algum resultado
             if (response.data.length === 0) {
                 alert("Nenhum cachorro foi encontrado !!");
+                this.setState({ cachorros: response.data });
             }
             else {
 
